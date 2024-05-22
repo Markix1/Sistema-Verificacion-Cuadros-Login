@@ -1,8 +1,24 @@
-# React + Vite
+# Login del Sistema de Verificación de Cuadros
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Interfaz
 
-Currently, two official plugins are available:
+![Login Interface Screenshot](image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Pasos para correr el proyecto
+
+- Entrar en la ruta del proyecto
+```sh
+cd ruta_proyecto
+```
+
+- Instalar las dependencias necesarias del proyecto:
+
+```sh
+npm install
+```
+
+- Correr el proyecto:
+
+```sh
+npm run dev
+```
