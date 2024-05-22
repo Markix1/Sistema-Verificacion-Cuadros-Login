@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+body {
+    font-family: 'Onest';
+    background-color:#23305e;
+}
+
+#login-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form-is {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    width: 60%;
+    font-family: 'Onest';
+}
+
+#container-img {
+    position: absolute;
+    top: 140px;
+    width: 150px; height: 150px;
+    background-color: #ffffff;
+    border-radius: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#container-input {
+    display: block;
+    text-align: center;
+}
+
+#container-check {
+    display: flex;
+    align-items: center;
+}
+
+#txt-t {
+    color:#23305e;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+.i-is {
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    width: 300px; 
+    height: 50px;
+    background: none;
+}
+
+.icon {
+    margin-right: 15px;
+    color: #23305e;
+    width: 30px;
+    height: 30px;
+}
+
+.i-is:focus {
+    outline: none;
+}
+
+.i-f {
+    margin-bottom: 10px;
+    border: 3px solid #56bd9b;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#i-ch {
+    width: 40px;
+    height: 20px;
+}
+
+#btn-conectar {
+    color: #23305e;
+    background-color: #56bd9b;
+    font-weight: bold;
+    border: 5px solid #23305e;
+    border-radius: 20px;
+    font-size: 30px;
+    width: 300px;
+    -webkit-text-stroke: 1px white;
+    margin-top: 15px;
+}
+
+.txt-p {
+    color: rgb(180, 180, 180);
+}
